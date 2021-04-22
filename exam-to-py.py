@@ -75,15 +75,15 @@ while election.voting == True: # The main election loop.
     voted = False
     while voted == False: # Forces a valid input
         vote = input('Enter your vote (A, B or C): ')
-        if vote == 'A': # Each one of these (A, B and C) adds a vote and sets voted to true.
+        if vote.upper() == 'A': # Each one of these (A, B and C) adds a vote and sets voted to true.
             election.A += 1
             election.totalVotes += 1
             voted = True
-        elif vote == 'B':
+        elif vote.upper() == 'B':
             election.B += 1
             election.totalVotes += 1
             voted = True
-        elif vote == 'C':
+        elif vote.upper() == 'C':
             election.C += 1
             election.totalVotes += 1
             voted = True
