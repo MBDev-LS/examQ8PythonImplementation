@@ -154,6 +154,8 @@ while True: # Allows election admins to take action once they have stopped the v
     elif nextAction == 'exit': # Allows the user to exit the program.
         print('Stopping program.')
         break
+    elif nextAction == '':
+        nextAction = None
     else:
         print('Error: Unknown command') # Handles unexpected commands.
 
