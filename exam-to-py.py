@@ -156,3 +156,8 @@ while True: # Allows election admins to take action once they have stopped the v
         break
     else:
         print('Error: Unknown command') # Handles unexpected commands.
+
+# An implementation of a Computer Science (OCR) Paper 2 Algorithm Question
+# Was in my final mock for CS.
+
+# Created by Louis S.
