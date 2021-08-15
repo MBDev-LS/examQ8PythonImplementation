@@ -1,4 +1,0 @@
-A Votes:3
-B Votes:4
-C Votes:3
-Total Votes:10
